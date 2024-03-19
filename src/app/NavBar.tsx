@@ -1,5 +1,4 @@
-import Link from "next/link";
-import NavBarLink from "./NavBarLink";
+import NavBarLink from "./components/nav-bar/NavBarLink";
 
 export default function NavBar() {
   return (
@@ -10,7 +9,7 @@ export default function NavBar() {
           <NavBarLink title="Home" href="/" />
           <NavBarLink title="About" href="/" />
           <NavBarLink title="Contact" href="/" />
-          <NavBarLink title="Login" href="/" />
+          <NavBarLink title="Login" href="/log-in" />
         </div>
       </div>
     </div>
